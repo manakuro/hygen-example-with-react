@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Box from './components/atoms/Box';
+import { Box } from './components/atoms/Box';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Box />
+      <Box color="red" />
     </div>
   );
 }
