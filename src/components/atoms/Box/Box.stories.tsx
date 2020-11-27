@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from './Box';
+import { Box } from './';
 import { Story, Meta } from '@storybook/react/types-6-0';
 
 type Props = React.ComponentProps<typeof Box>
